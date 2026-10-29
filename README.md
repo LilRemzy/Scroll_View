@@ -17,20 +17,7 @@ V tej nalogi sem naredil aplikacijo ScrollingText, ki prikazuje daljši članek 
 - preizkusiti aplikacijo na napravi z Androidom in preveriti, da se celotno besedilo lahko navpično premika z drsenjem.
 
 ## Zaslonske slike aplikacije
-<img width="407" height="853" alt="slikascroll3" src="https://github.com/user-attachments/assets/65c3eb3a-9cf0-49f2-b013-136116242c02" />
+<img width="270" height="555" alt="slikascroll1" src="https://github.com/user-attachments/assets/8d5a936c-aded-4279-a238-8987097ed124" />
+<img width="270" height="555" alt="slikascroll2" src="https://github.com/user-attachments/assets/761a55ec-0659-4209-be35-d8f378b404fd" />
+<img width="270" height="555" alt="slikascroll3" src="https://github.com/user-attachments/assets/58777f99-c2c2-4a29-9979-222c47ac9549" />
 
-
-## Odgovori na vprašanja
-
-1. **Koliko gradnikov lahko vsebuje ScrollView?**
-   b) En gradnik View ali en gradnik ViewGroup. `ScrollView` ima lahko samo enega neposrednega otroka, zato je to običajno `ViewGroup` (npr. `LinearLayout`), ki vsebuje druge gradnike.
-2. **Kateri XML atribut v LinearLayoutu uporabite, da se gradniki prikažejo drug ob drugem?**
-   a) `android:orientation="horizontal"`
-3. **Kateri XML atribut uporabite za določitev širine LinearLayouta znotraj drsnega pogleda?**
-   b) `android:layout_width="match_parent"`
-
-## Namestitev na telefon
-
-1. V Android Studiu: *Build → Build Bundle(s) / APK(s) → Build APK(s)*.
-2. Datoteka `app-debug.apk` je v mapi `app/build/outputs/apk/debug/`.
-3. APK prenesem na telefon z Androidom in ga odprem (dovolim *Namestitev neznanih aplikacij*) ali ga namestim z ukazom `adb install -r app-debug.apk`.
