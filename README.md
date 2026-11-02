@@ -10,7 +10,7 @@ V tej nalogi sem naredil aplikacijo ScrollingText, ki prikazuje daljši članek 
 - naslov članka postaviti nad `ScrollView`, da ostane vedno viden,
 - na sredino spodaj dodati gumb **Add Comment**, ki ob kliku s `Toast` izpiše **Comment submitted!**,
 - vsa besedila (naslov, podnaslov, članek, gumb, sporočilo) shraniti v `strings.xml` in jih v postavitvi uporabiti prek sklicev `@string/...`,
-- za besedilo članka dodati `android:autoLink="web"`, da je spletni naslov povezava
+- za besedilo članka dodati `android:autoLink="web"`, da je spletni naslov povezava,
 - postavitvi dodati `android:fitsSystemWindows="true"`, da vsebina ni pod kamero in vrstico stanja,
 - v `themes.xml` nastaviti temo `Theme.MaterialComponents.DayNight.DarkActionBar`, da ima vrstica **Scrolling Text** modro ozadje kot naslov,
 - privzeto ikono zamenjati z lastno prek orodja *Image Asset Studio* (*New → Image Asset → Launcher Icons (Adaptive and Legacy)*),
