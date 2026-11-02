@@ -14,7 +14,7 @@ V tej nalogi sem naredil aplikacijo ScrollingText, ki prikazuje daljši članek 
 - postavitvi dodati `android:fitsSystemWindows="true"`, da vsebina ni pod kamero in vrstico stanja,
 - v `themes.xml` nastaviti temo `Theme.MaterialComponents.DayNight.DarkActionBar`, da ima vrstica **Scrolling Text** modro ozadje kot naslov,
 - privzeto ikono zamenjati z lastno prek orodja *Image Asset Studio* (*New → Image Asset → Launcher Icons (Adaptive and Legacy)*),
-- preizkusiti aplikacijo na napravi z Androidom in preveriti, da se celotno besedilo lahko navpično premika z drsenjem.
+- preizkusiti aplikacijo na napravi z Androidom in preveriti, da se celotno besedilo lahko navpično premika z drsenjem
 
 ## Zaslonske slike aplikacije
 <img width="270" height="555" alt="slikascroll1" src="https://github.com/user-attachments/assets/8d5a936c-aded-4279-a238-8987097ed124" />
