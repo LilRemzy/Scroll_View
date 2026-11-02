@@ -4,7 +4,7 @@ V tej nalogi sem naredil aplikacijo ScrollingText, ki prikazuje daljši članek 
 
 ## Cilji
 
-- odpreti projekt ScrollingText v Android Studiu
+- odpreti projekt ScrollingText v Android Studiu,
 - v `activity_main.xml` uporabiti `ScrollView`, ki vsebuje natanko en neposredni element, vodoravni `LinearLayout`,
 - v `LinearLayout` (`android:orientation="horizontal"`) postaviti dva gradnika `TextView`: podnaslov v levi stolpec (širina `100dp`) in besedilo članka v desni, širši stolpec (`layout_width="0dp"` in `layout_weight="1"`),
 - naslov članka postaviti nad `ScrollView`, da ostane vedno viden,
